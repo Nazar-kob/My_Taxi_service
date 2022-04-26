@@ -12,9 +12,14 @@
     <p><strong>Click here you want to update license number -></strong>
         <a href="{% url 'taxi:driver-update' pk=driver.pk %}">Update</a>
     </p>
+    {% if driver.is_superuser %}
+        <p><strong>Sorry, the superuser cannot be deleted </strong>
+    </p>
+    {% else %}
     <p><strong>Click here you want to delete driver -> </strong>
         <a href="{% url 'taxi:driver-delete' pk=driver.pk %}">Delete</a>
     </p>
+    {% endif %}
 
     <div class="ml-3">
         <h4>Cars</h4>
