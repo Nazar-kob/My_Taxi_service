@@ -1,4 +1,4 @@
-# My Taxi service 
+# My taxi service 
 
 Django project for managing cars and drivers in taxi-service application
 
