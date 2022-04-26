@@ -1,3 +1,32 @@
-"# My_Taxi_service" 
+# My_Taxi_service 
 
-https://github.com/jehna/readme-best-practices
+Django project for managing cars and drivers in taxi-service application
+
+## Check it out!
+
+[My taxi service project deployed to Heroku](https://taxi-service-nazar-k.herokuapp.com/)
+
+## Installation
+
+Python3 must be already installed
+
+```shell
+git clone https://github.com/Nazar-kob/My_Taxi_service.git
+cd My_Taxi_service
+python3 -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py runserver
+```
+## Features
+ * Authentication functionality for Driver/User
+ * Managing cars, manufacturers, drivers directly from website interface
+ * Powerful admin panel for advanced managing
+
+## Access
+ * Username: nazar_kobryn
+ * password: 123qweQWE
+
+## Demo
+![Website interface](demo.png)
+![Website interface](demo2.png)
