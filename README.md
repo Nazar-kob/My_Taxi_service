@@ -1,4 +1,4 @@
-# My_Taxi_service 
+# My_taxi_service 
 
 Django project for managing cars and drivers in taxi-service application
 
@@ -11,8 +11,7 @@ Django project for managing cars and drivers in taxi-service application
 Python3 must be already installed
 
 ```shell
-git clone https://github.com/Nazar-kob/My_Taxi_service.git
-cd My_Taxi_service
+git clone https://github.com/Nazar-kob/My_taxi_service.git
 python3 -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
