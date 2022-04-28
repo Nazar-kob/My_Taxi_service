@@ -14,10 +14,10 @@ Python3 must be already installed
 ```shell
 git clone https://github.com/Nazar-kob/My_taxi_service.git
 cd My_taxi_service
-python manage.py migrate
 python3 -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+python manage.py migrate
 python manage.py runserver
 ```
 ## Features
